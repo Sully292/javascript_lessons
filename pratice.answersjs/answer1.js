@@ -3,6 +3,14 @@
 function findsquare(num) {
     let sq = num * num
     console.log("square of num is", sq)
+}
 
+function zarbkroapismein(yenumbers) {
+
+
+    let numb = yenumbers * yenumbers
+    console.log("deikho jawab", numb)
 }
 findsquare(100)
+zarbkroapismein(95)
+/// yeh uper maine khud se ek program bnaya check kero kaisa chotay bahi
