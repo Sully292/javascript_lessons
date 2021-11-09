@@ -2,11 +2,9 @@
 // for example  2*2 = 4 so  4 is square of 2
 
 
-function zarbkroapismein(yenumbers){
+function findsquare(numb){
+    let sq = numb*numb
+    console.log("answer is",sq)
 
-
-let numb = yenumbers*yenumbers
-console.log("deikho jawab",numb)
 }
-zarbkroapismein (95)
-/// yeh uper maine khud se ek program bnaya check kero kaisa chotay bahi
+findsquare (100)
