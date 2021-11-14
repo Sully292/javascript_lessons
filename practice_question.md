@@ -11,3 +11,5 @@ Q2 write a function which takes three numbers as parameters and tell which one i
         
      
 
+Q3 write a function which takes three numbers like above and print which one is the largest.
+   hint : similar to q2
