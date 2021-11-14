@@ -3,8 +3,16 @@
 // exact number like 8 is smallest hint : use your code "a,b,c which one is smaller.js" 
 /// hint : to call your function you will do myfunc(55,85,8)
 
-function myfunc(smallest){
-let numb =  a = 75, b = 85 ,c = 90
-console.log(numb)
+function findsmallest(x,y,z){
+if (x < y && x < z){
+    console.log("smallest number is",x)
 }
-myfunc(0)
+
+else if(y < x && y < z){
+    console.log("smallest number is" ,y)
+
+}
+else if(z < x && z < y){
+    console.log("smallest number is" ,z)
+}
+findsmallest(10,40,20)}
