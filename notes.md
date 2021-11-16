@@ -18,4 +18,3 @@
 
   
 
-https://meet.google.com/qky-pwxc-kma
