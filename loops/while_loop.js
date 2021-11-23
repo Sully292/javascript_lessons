@@ -29,24 +29,36 @@
 //     console.log(myarray[count])
 //     count++
 // }
-let myarray = ["apple","banana","mango","kiwi"]
+// let myarray = ["apple","banana","mango","kiwi"]
 
-let numb = myarray.length
-let i = 0
+// let numb = myarray.length
+// let i = 0
 
-while(i < numb){
-    console.log(myarray[i])
-    i++
+// while(i < numb){
+//     console.log(myarray[i])
+//     i++
+// }
+// let numberrr = 5
+// while(numberrr > 0){
+//     console.log(numberrr)
+//   numberrr =  numberrr - 1
+// }
+
+// let x = myarray.length - 1
+// while(x >= 0){
+//     console.log(myarray[x])
+// x = x - 1
+// }
+let loading = true
+
+while(loading)
+{
+    let dice = Math.floor(Math.random() *random_number = Math.floor(Math.random() * 10);;
+if (dice == 6){
+    console.log("chika aa gya")
+loading = false
 }
-let numberrr = 5
-while(numberrr > 0){
-    console.log(numberrr)
-  numberrr =  numberrr - 1
+else {
+    console.log(dice)
 }
-
-let x = myarray.length - 1
-while(x >= 0){
-    console.log(myarray[x])
-x = x - 1
 }
-
