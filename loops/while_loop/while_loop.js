@@ -1,4 +1,4 @@
-// // while loop 
+// // while loop
 // // Function ko ek numb pass kren function utni dafa "hi " print kray
 
 // // while(condition){
@@ -49,16 +49,5 @@
 //     console.log(myarray[x])
 // x = x - 1
 // }
-let loading = true
 
-while(loading)
-{
-    let dice = Math.floor(Math.random() * (6 - 1 + 1)) + 1;
-if (dice == 6){
-    console.log("chika aa gya")
-loading = false
-}
-else {
-    console.log(dice)
-}
-}
+
