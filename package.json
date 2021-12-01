@@ -1,0 +1,22 @@
+{
+  "name": "js-prompt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "input.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sully292/javascript_lessons.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sully292/javascript_lessons/issues"
+  },
+  "homepage": "https://github.com/Sully292/javascript_lessons#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
