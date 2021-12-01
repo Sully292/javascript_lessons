@@ -1,4 +1,5 @@
-const prompt = require("prompt-sync")();
-var myinput
+const input = require("prompt-sync")();
+let myinput
 
-myinput = prompt("enter your name")
+myinput = input("enter your name")
+console.log("aslamlaikum", myinput)
