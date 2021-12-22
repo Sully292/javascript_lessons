@@ -44,7 +44,14 @@ let myarray = [{
 
 
 for (let i = 0; i < myarray.length; i++) {
-    console.log(myarray[i].name)
-}
+    if (myarray[i].age > 25 && myarray[i].married == false) {
 
+
+        console.log(myarray[i].name)
+    }
+}
+let i = 0
+while (i < myarray.length) {
+
+}
 
