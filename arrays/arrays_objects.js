@@ -1,6 +1,6 @@
 
 
-
+/// bilal has brown skin
 
 let myarray = [{
     name: "Bilal",
@@ -41,17 +41,16 @@ let myarray = [{
     skin: "brown"
 }
 ]
-
-
 for (let i = 0; i < myarray.length; i++) {
-    if (myarray[i].age > 25 && myarray[i].married == false) {
+    myarray[i].name = "johnny " + myarray[i].name
+    myarray[i].age = myarray[i].age + 5
+    if (myarray[i].name == "johnny Bilal") {
+        myarray[i].age = myarray[i].age + 5
 
-
-        console.log(myarray[i].name)
     }
-}
-let i = 0
-while (i < myarray.length) {
+    myarray[i].married = myarray[i].married == true ? false : true
 
+    console.log(myarray[i].name + " has " + myarray[i].skin + " skin and age is " + myarray[i].age + "is married " + myarray[i].married)
 }
+
 
