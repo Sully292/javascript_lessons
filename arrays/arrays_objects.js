@@ -1,6 +1,6 @@
 
 
-
+/// bilal has brown skin
 
 let myarray = [{
     name: "Bilal",
@@ -45,34 +45,41 @@ let myarray = [{
 
 }
 ]
-
-
-
 for (let i = 0; i < myarray.length; i++) {
-    //  console.log(myarray[i].name)
-    let obj = myarray[i]
+    myarray[i].name = "johnny " + myarray[i].name
+    myarray[i].age = myarray[i].age + 5
+    if (myarray[i].name == "johnny Bilal") {
+        myarray[i].age = myarray[i].age + 5
 
-    if ((obj.name != "ahmad" || (obj.married == true && obj.skin != "black")) || (education == "FA" && age > 24)) {
-        console.log(obj.name)
     }
-}
+    myarray[i].married = myarray[i].married == true ? false : true
 
 
-let mygrades = 80
+    for (let i = 0; i < myarray.length; i++) {
+        //  console.log(myarray[i].name)
+        let obj = myarray[i]
 
-switch (mygrades) {
-    case (mygrades > 50):
-        console.log("you can get addmisssion in Islamic uni")
-    case (mygrades > 60):
-        console.log("you can get addmisssion in punjab uni")
-    case (mygrades > 70):
-        console.log("you can get addmisssion in Fast")
-    case (mygrades > 80):
-        console.log("you can get addmisssion Nust ")
-        break;
-    default: console.log("hello")
-        break;
+        if ((obj.name != "ahmad" || (obj.married == true && obj.skin != "black")) || (education == "FA" && age > 24)) {
+            console.log(obj.name)
+        }
+    }
 
 
+    let mygrades = 80
 
-}
+    switch (mygrades) {
+        case (mygrades > 50):
+            console.log("you can get addmisssion in Islamic uni")
+        case (mygrades > 60):
+            console.log("you can get addmisssion in punjab uni")
+        case (mygrades > 70):
+            console.log("you can get addmisssion in Fast")
+        case (mygrades > 80):
+            console.log("you can get addmisssion Nust ")
+            break;
+        default: console.log("hello")
+            break;
+
+
+
+    }
