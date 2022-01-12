@@ -9,11 +9,12 @@ let myarray = [{
     married: true,
     skin: "brown"
 
+
 },
 {
-    name: "Ahmad",
+    name: "sehrish",
     age: 20,
-    education: "FA",
+    education: "MA",
     married: true,
     skin: "black"
 
@@ -23,28 +24,55 @@ let myarray = [{
     age: 30,
     education: "FA",
     married: false,
-    skin: "white"
+    skin: "brown"
+
 },
 {
-    name: "sadaf",
+    name: "ahmad",
     age: 25,
-    education: "FA",
+    education: "BA",
     married: true,
     skin: "brown"
+
 }
     ,
 {
     name: "khalid",
-    age: 25,
+    age: 24,
     education: "FA",
     married: true,
     skin: "brown"
+
 }
 ]
 
 
+
 for (let i = 0; i < myarray.length; i++) {
-    console.log(myarray[i].name)
+    //  console.log(myarray[i].name)
+    let obj = myarray[i]
+
+    if ((obj.name != "ahmad" || (obj.married == true && obj.skin != "black")) || (education == "FA" && age > 24)) {
+        console.log(obj.name)
+    }
 }
 
 
+let mygrades = 80
+
+switch (mygrades) {
+    case (mygrades > 50):
+        console.log("you can get addmisssion in Islamic uni")
+    case (mygrades > 60):
+        console.log("you can get addmisssion in punjab uni")
+    case (mygrades > 70):
+        console.log("you can get addmisssion in Fast")
+    case (mygrades > 80):
+        console.log("you can get addmisssion Nust ")
+        break;
+    default: console.log("hello")
+        break;
+
+
+
+}
