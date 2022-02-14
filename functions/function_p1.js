@@ -19,3 +19,16 @@ function celsius(f) {
     return (c)
 }
 celsius(a)
+
+/// uper yeh function declaration hota hai
+function mybrother()    /// function parameters 
+{
+    console.log("kya haal hai") ///har dafa jab hum mybrother() likhen ge kya haal hai print hoga console me
+}
+mybrother()
+speak = function () {       //// function expression jab hum function ko variable ke ander store krty 
+    console.log("hellosir")
+
+}
+
+speak()    ///can invoke this function here 

@@ -28,10 +28,22 @@ let person = [{
 // console.log(person.kad)
 for (let i = 0; i < person.length; i++) {
     // console.log(person[i].age)
+    if (person[i].name == "jamil") { ////how to acess indvidual property and add into property 
+        console.log(person[i].name + " khan")
+    }
 }
+    // person[i].name = person[i].name + 5
+    // person[i].age = person[i].age * 2
+    // console.log(person[i].age)
+    // console.log(person[i].name)
 
-if (person.marks == 23 / 25 || person.name != "bilal" && person.age < 44) {
-    console.log(person.name, "yeh banda hai")
 
-}
-else { console.log("aisa koi banda nai") }
+
+
+
+
+// if (person.marks == 23 / 25 || person.name != "bilal" && person.age < 44) {
+//     console.log(person.name, "yeh banda hai")
+
+// }
+// else { console.log("aisa koi banda nai") }
